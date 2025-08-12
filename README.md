@@ -4,24 +4,9 @@ Exploratory Data Analysis. Extract insights using visual and statistical explora
 # 🚢 Titanic Dataset - Comprehensive Exploratory Data Analysis
 > **A data analyst approach to understanding survival patterns in the Titanic disaster through comprehensive statistical analysis and visualization.**
 
-## 📋 Table of Contents
+## 🎯 Task Overview
 
-- [🎯 Project Overview](#-project-overview)
-- [🔍 Key Findings](#-key-findings)
-- [📊 Dataset Information](#-dataset-information)
-- [🛠️ Installation & Setup](#️-installation--setup)
-- [📁 Project Structure](#-project-structure)
-- [🚀 Usage](#-usage)
-- [📈 Analysis Steps](#-analysis-steps)
-- [📊 Visualizations](#-visualizations)
-- [🎯 Machine Learning Insights](#-machine-learning-insights)
-- [📄 Reports](#-reports)
-- [🤝 Contributing](#-contributing)
-- [📧 Contact](#-contact)
-
-## 🎯 Project Overview
-
-This project provides a **comprehensive exploratory data analysis** of the famous Titanic dataset, focusing on understanding the factors that influenced passenger survival during the 1912 disaster. Using advanced statistical techniques and data visualization, we uncover patterns that align with historical accounts while providing actionable insights for predictive modeling.
+This Task provides a **comprehensive exploratory data analysis** of the famous Titanic dataset, focusing on understanding the factors that influenced passenger survival during the 1912 disaster. Using advanced statistical techniques and data visualization, we uncover patterns that align with historical accounts while providing actionable insights for predictive modeling.
 
 ### 🌟 **Why This Analysis Matters**
 - **Historical Validation**: Statistical patterns confirm documented historical events
