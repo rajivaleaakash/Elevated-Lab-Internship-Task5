@@ -68,100 +68,6 @@ This project provides a **comprehensive exploratory data analysis** of the famou
 | `Cabin` | String | Cabin number | 77.1% ❌ |
 | `Embarked` | String | Port of embarkation | 0.2% |
 
-## 🛠️ Installation & Setup
-
-### **Prerequisites**
-```bash
-Python 3.7+
-Jupyter Notebook
-```
-
-### **Clone Repository**
-```bash
-git clone https://github.com/yourusername/titanic-eda-analysis.git
-cd titanic-eda-analysis
-```
-
-### **Install Dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-### **Required Libraries**
-```python
-pandas>=1.3.0
-numpy>=1.21.0
-matplotlib>=3.4.0
-seaborn>=0.11.0
-scipy>=1.7.0
-jupyter>=1.0.0
-```
-
-## 📁 Project Structure
-
-```
-titanic-eda-analysis/
-│
-├── 📊 data/
-│   ├── train.csv                 # Training dataset
-│   └── test.csv                  # Test dataset (optional)
-│
-├── 📓 notebooks/
-│   ├── 01_data_exploration.ipynb          # Initial data exploration
-│   ├── 02_comprehensive_eda.ipynb         # Full EDA analysis
-│   └── 03_feature_engineering.ipynb      # Feature engineering insights
-│
-├── 📜 scripts/
-│   ├── eda_analysis.py           # Complete EDA script
-│   └── generate_pdf_report.py    # PDF report generator
-│
-├── 📈 visualizations/
-│   ├── survival_analysis.png     # Key survival charts
-│   ├── demographic_analysis.png  # Age, gender, class charts  
-│   └── correlation_heatmap.png   # Feature correlations
-│
-├── 📄 reports/
-│   ├── Titanic_EDA_Report.pdf    # Comprehensive PDF report
-│   └── executive_summary.md      # Executive summary
-│
-├── 🔧 utils/
-│   └── helper_functions.py       # Utility functions
-│
-├── 📋 requirements.txt           # Dependencies
-├── 📖 README.md                 # This file
-└── ⚖️ LICENSE                   # MIT License
-```
-
-## 🚀 Usage
-
-### **Option 1: Jupyter Notebook (Recommended)**
-```bash
-# Start Jupyter Notebook
-jupyter notebook
-
-# Open notebooks/02_comprehensive_eda.ipynb
-# Run all cells to reproduce analysis
-```
-
-### **Option 2: Python Script**
-```bash
-# Run complete EDA analysis
-python scripts/eda_analysis.py
-
-# Generate PDF report
-python scripts/generate_pdf_report.py
-```
-
-### **Option 3: Interactive Analysis**
-```python
-import pandas as pd
-from scripts.eda_analysis import TitanicEDA
-
-# Load data and run analysis
-analyzer = TitanicEDA('data/train.csv')
-analyzer.run_complete_analysis()
-analyzer.generate_insights()
-```
 
 ## 📈 Analysis Steps
 
@@ -195,20 +101,6 @@ analyzer.generate_insights()
 - [x] Age group creation
 - [x] Deck information extraction
 
-## 📊 Visualizations
-
-<div align="center">
-
-### **Survival Overview**
-![Survival Analysis](visualizations/survival_overview.png)
-
-### **Demographic Patterns** 
-![Demographics](visualizations/demographics.png)
-
-### **Feature Correlations**
-![Correlations](visualizations/correlation_matrix.png)
-
-</div>
 
 ### **📈 Key Visualizations Include:**
 - Survival distribution (overall and by segments)
@@ -322,6 +214,14 @@ We welcome contributions! Here's how you can help:
 - Model implementation and comparison
 - Documentation improvements
 - Code optimization
+
+
+## Tools & Libraries
+- [x] Dataset structure and feature types
+- [x] Data quality assessment  
+- [x] Missing value patterns
+- [x] Basic statistical summaries
+
 
 ## 📧 Contact
 
